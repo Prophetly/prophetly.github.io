@@ -20,6 +20,10 @@
     	.command-text-info {
         color: #634F1E;
       }
+
+      .dark-section {
+        background: #E9E9E9;
+      }
     </style>
 </head>
 <body>
@@ -95,9 +99,10 @@
 <hr class="intro-divider">
 
 <section id="install">
-  <div class="content-section-a">
+  <div class="content-section-a dark-section">
     <div class="container">
       <h4>Install from testpypi</h4>
+      <h5>Make sure you have <a href="https://facebookincubator.github.io/prophet/docs/installation.html#installation-in-python">Python implementation of fbprophet</a> and PyStan installed.</h5>
       <div class="highlight text-center">
         <pre class="command-text-info"><b>$ pip install --extra-index-url https://testpypi.python.org/pypi prophetly-server</b></pre>
       </div>
@@ -107,11 +112,9 @@
       </div>
     </div>
   </div>
-
-  <hr class="intro-divider">
 </section>
 
-<section id="open-source">
+<section id="open-source" class="dark-section content-section-a">
   <div class="container">
     <div class="row">
       <div class="col-md-offset-2 col-md-4 project-name">
@@ -123,6 +126,28 @@
         <h3>Prophetly Server</h3>
         <iframe src="https://ghbtns.com/github-btn.html?user=prophetly&repo=prophetly-server&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
         <h5>Server powered by Tornado and Prophet</h5>
+      </div>
+    </div>
+  </div>
+
+  <hr class="intro-divider">
+
+  <div class="container intro-header">
+    <div class="row">
+      <div class="col-md-2">
+        <img alt="React" title="React" width="80" height="80" src="/img/react.svg" />
+      </div>
+      <div class="col-md-2">
+        <img alt="Flux" title="Flux" src="/img/flux.svg" />
+      </div>
+      <div class="col-md-2">
+        <img alt="Plotly" title="Plotly" src="/img/plotly.jpg" />
+      </div>
+      <div class="col-md-2">
+        <img alt="Prophet" title="Prophet" width="80" height="80"src="/img/prophet.svg" />
+      </div>
+      <div class="col-md-2">
+        <img alt="Tornado" title="Tornado" src="/img/tornado.png" />
       </div>
     </div>
   </div>
@@ -150,6 +175,7 @@
 </section>
 -->
 
+<!--
 <section id="services">
     <div class="content-section-a">
         <div class="container">
@@ -159,7 +185,7 @@
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Whats included</h2>
                     <p>Prophetly consists the following:</p>
-<!--
+
 <ul>
 <li><strong>Colorize</strong>: Helps adding colors to strings written to the terminal</li>
 <li><strong>Ask</strong>:  Choose  and agree: Easily create prompt for asking the user more info</li>
@@ -168,7 +194,6 @@
 <li><strong>Args</strong>: Parses command line arguments and return a hash of the passed flags</li>
 <li>More components to come&hellip;.</li>
 </ul>
--->
 
                 </div>
             </div>
@@ -176,7 +201,7 @@
         </div>
 
 
-    </div>
+    </div>-->
 
 
     <!--<div class="content-section-b">
@@ -260,12 +285,14 @@ pod 'Swiftline'
     <div class="container">
         <div class="row">
             <div class="col-md-8">
+                <!--
                 <ul class="list-inline">
                     <li>
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
                 </ul>
-                <p class="copyright text-muted small">Copyright &copy; Swiftline All Rights Reserved</p>
+                -->
+                <p class="copyright text-muted small">With ♥ by <a target="_blank" href="https://pravj.github.io">Pravendra Singh</a></p>
             </div>
             <div class="col-md-4">
 		Built with <a href="http://gohugo.io">Hugo</a> and the
