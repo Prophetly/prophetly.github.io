@@ -42,6 +42,10 @@ h6 {
     font-family: -apple-system-headline, 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.project-name {
+    font-family: -apple-system-headline, 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 .intro-message > h1 {
     font-family: -apple-system-subheadline, 'HelveticaNeue-UltraLight', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 5em;

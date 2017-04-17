@@ -15,6 +15,12 @@
 
     <link href="/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <style>
+    	.command-text-info {
+        color: #634F1E;
+      }
+    </style>
 </head>
 <body>
 
@@ -34,9 +40,15 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a class="page-scroll" href=http://github.com/Prophetly>GitHub</a>
-                </li>
+              <li>
+                  <a class="page-scroll" href=#preview>Preview</a>
+              </li>
+              <li>
+                  <a class="page-scroll" href=#install>Install</a>
+              </li>
+              <li>
+                  <a class="page-scroll" href=#open-source>Open Source</a>
+              </li>
             </ul>
         </div>
 
@@ -74,9 +86,48 @@
 
 <section id="preview">
   <div class="container content-section">
-    <div class="row facade-minimal" data-url="http://www.bowie-to-bowie.io">
+    <div class="row facade-minimal" data-url="">
       <img class="img-responsive" src="https://camo.githubusercontent.com/594e16da0ade7d67a9fa88aa216a85576562b400/687474703a2f2f672e7265636f726469742e636f2f53717850676a71646a762e676966"/>
     </div>
+  </div>
+</section>
+
+<hr class="intro-divider">
+
+<section id="install">
+  <div class="content-section-a">
+    <div class="container">
+      <h4>Install from testpypi</h4>
+      <div class="highlight text-center">
+        <pre class="command-text-info"><b>$ pip install --extra-index-url https://testpypi.python.org/pypi prophetly-server</b></pre>
+      </div>
+      <h4>Run server</h4>
+      <div class="highlight text-center">
+        <pre class="command-text-info"><b>$ prophetly-server start</b></pre>
+      </div>
+    </div>
+  </div>
+
+  <hr class="intro-divider">
+</section>
+
+<section id="open-source">
+  <div class="container intro-header">
+    <span class="intro-message highlight text-center">
+      <h3 style="display:inline;margin-right:10px;">Prophetly Client</h3>
+      <iframe src="https://ghbtns.com/github-btn.html?user=prophetly&repo=prophetly-client&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+    </span>
+
+    <h4 style="color:black;">Prophetly Frontend powered by React and Plotly</h4>
+  </div>
+
+  <div class="container intro-header">
+    <span class="intro-message">
+      <h3 style="display:inline;margin-right:10px;">Prophetly Server</h3>
+      <iframe src="https://ghbtns.com/github-btn.html?user=prophetly&repo=prophetly-server&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+    </span>
+
+    <h4 style="color:black;">Prophetly Server powered by Tornado and Prophetly-Client.</h4>
   </div>
 </section>
 
